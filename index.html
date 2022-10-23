@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./browser_4.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <ul class="nav-bar__list">
+          <li class="nav-bar__list__item">
+            <a class="link" href="#section1">&lt;section&gt;</a>
+          </li>
+          <!-- /.nav-bar__list__item -->
+          <li class="nav-bar__list__item">
+            <a class="link" href="#article">&lt;article&gt;</a>
+          </li>
+          <!-- /.nav-bar__list__item -->
+          <li class="nav-bar__list__item">
+            <a class="link" href="#header">&lt;header&gt;</a>
+          </li>
+          <!-- /.nav-bar__list__item -->
+          <li class="nav-bar__list__item">
+            <a class="link" href="#footer">&lt;footer&gt;</a>
+          </li>
+          <!-- /.nav-bar__list__item -->
+        </ul>
+        <!-- /.nav-bar__list -->
+      </div>
+      <!-- /.container -->
+    </header>
+    <!-- /.header -->
+    <main class="main_contant">
+      <div class="container">
+        <section class="section">
+          <h1 class="main_title">HTML5 Семантичні елементи</h1>
+          <!-- /.main_title -->
+          <p>
+            Семантичний елемент чітко описує його значення як для браузера, так
+            і для розробника. Приклади не <span>семантичних</span> елементів:
+            &lt;div&gt; і &lt;span&gt;- нічого не говорить про його вміст.
+            Приклади <span>семантичних</span> елементів: &lt;form&gt;,
+            &lt;table&gt;і &lt;article&gt;- чітко визначає його зміст.
+          </p>
+        </section>
+        <!-- /.section -->
+        <section class="section">
+          <h2 class="second_title">Підтримка браузерів</h2>
+          <!-- /.second_title -->
+          <div class="browser_list">
+            <div class="browser_list__item">
+              <img
+                src="./img/browser_1.png"
+                alt="browser_icon"
+                class="browser_list__item__img"
+              />
+            </div>
+            <!-- /.browser_list__item -->
+            <div class="browser_list__item">
+              <img
+                src="./img/browser_2.png"
+                alt="browser_icon"
+                class="browser_list__item__img"
+              />
+            </div>
+            <!-- /.browser_list__item -->
+            <div class="browser_list__item">
+              <img
+                src="./img/browser_3.png"
+                alt="browser_icon"
+                class="browser_list__item__img"
+              />
+            </div>
+            <!-- /.browser_list__item -->
+            <div class="browser_list__item">
+              <img
+                src="./img/browser_4.png"
+                alt="browser_icon"
+                class="browser_list__item__img"
+              />
+            </div>
+            <!-- /.browser_list__item -->
+            <div class="browser_list__item">
+              <img
+                src="./img/browser_5.png"
+                alt="browser_icon"
+                class="browser_list__item__img"
+              />
+            </div>
+            <!-- /.browser_list__item -->
+          </div>
+          <!-- /.browser_list -->
+          <p class="text">
+            Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.
+          </p>
+          <!-- /.text -->
+          <p class="text">
+            Крім того, ви можете "навчити" старих браузерів, як обробляти
+            "невідомі елементи".
+          </p>
+          <!-- /.text -->
+          <p class="text">
+            Прочитайте про це в
+            <a href="https://www.blogger.com/onboarding"
+              >підтримці браузера HTML5
+            </a>
+            .
+          </p>
+          <!-- /.text -->
+        </section>
+        <!-- /.section -->
+        <section class="section">
+          <h2 class="second_title">Підтримка браузерів</h2>
+          <p class="text">
+            HTML5 пропонує нові семантичні елементи для визначення різних частин
+            веб-сторінки:
+          </p>
+          <!-- /.text -->
+          <ul class="nav-bar">
+            <li class="nav-bar__list__item">
+              <a class="link" href="#section1">&lt;section&gt;</a>
+            </li>
+            <!-- /.nav-bar__list__item -->
+            <li class="nav-bar__list__item">
+              <a class="link" href="#article">&lt;article&gt;</a>
+            </li>
+            <!-- /.nav-bar__list__item -->
+            <li class="nav-bar__list__item">
+              <a class="link" href="#article">&lt;header&gt;</a>
+            </li>
+            <!-- /.nav-bar__list__item -->
+            <li class="nav-bar__list__item">
+              <a class="link" href="#footer">&lt;footer&gt;</a>
+            </li>
+            <!-- /.nav-bar__list__item -->
+          </ul>
+          <!-- /.nav-bar__list -->
+        </section>
+        <!-- /.section -->
+        <section id="section1" class="section">
+          <h2 class="second_title">HTML5 &lt;section&gt; елемент</h2>
+          <p class="text">
+            Елемент &lt;section&gt;визначає розділ в документі.
+          </p>
+          <!-- /.text -->
+          <p class="text">
+            Згідно з документацією в3к'с HTML5: "розділ представляє собою
+            тематичну угруповання контенту, зазвичай з заголовком".
+          </p>
+          <!-- /.text -->
+          <p class="text">
+            Домашня сторінка зазвичай може бути розділена на розділи для
+            ознайомлення, змісту і контактної інформації.
+          </p>
+          <!-- /.text -->
+          <img
+            src="./img/Example_1.png"
+            alt="Photo of example"
+            class="example"
+          />
+        </section>
+        <!-- /.section -->
+        <section id="article" class="section">
+          <h2 class="second_title">HTML5 &lt;article&gt; елемент</h2>
+          <p class="text">
+            Елемент &lt;article&gt;визначає незалежний, автономний вміст.
+          </p>
+          <!-- /.text -->
+          <p class="text">
+            Стаття повинна мати сенс самостійно, і вона повинна мати можливість
+            читати його незалежно від іншої частини веб-сайту.
+          </p>
+          <!-- /.text -->
+          <p class="text">
+            Приклади того, де можна використовувати елемент &lt;article&gt;:
+          </p>
+          <!-- /.text -->
+          <ul class="nav-bar">
+            <li class="nav-bar__list__item">
+              <span class="simple">Повідомлення на форумі</span>
+            </li>
+            <!-- /.nav-bar__list__item -->
+            <li class="nav-bar__list__item">
+              <span class="simple">блозі </span>
+            </li>
+            <!-- /.nav-bar__list__item -->
+            <li class="nav-bar__list__item">
+              <span class="simple">Газетна стаття </span>
+            </li>
+            <!-- /.nav-bar__list__item -->
+          </ul>
+          <!-- /.nav-bar__list -->
+          <img
+            src="./img/Screenshot_2.png"
+            alt="Photo of example"
+            class="example"
+          />
+        </section>
+        <!-- /.section -->
+        <section id="header" class="section">
+          <h2 class="second_title">HTML5 &lt;header&gt; елемент</h2>
+          <p class="text">
+            Елемент &lt;header&gt;задає заголовок для документа або розділу.
+          </p>
+          <!-- /.text -->
+          <p class="text">
+            Елемент &lt;header&gt;повинен використовуватися в якості контейнера
+            для вступного змісту.
+          </p>
+          <!-- /.text -->
+          <p class="text">
+            В одному документі може бути кілька елементів &lt;header&gt;.
+          </p>
+          <!-- /.text -->
+
+          <p class="text">
+            У наступному прикладі визначається заголовок для статті:
+          </p>
+          <!-- /.text -->
+
+          <img
+            src="./img/Example_3.png"
+            alt="Photo of example"
+            class="example"
+          />
+        </section>
+        <!-- /.section -->
+        <section id="footer" class="section">
+          <h2 class="second_title">HTML5 &lt;footer&gt; елемент</h2>
+          <p class="text">
+            Елемент &lt;footer&gt;вказує нижній колонтитул для документа або
+            розділу.
+          </p>
+          <!-- /.text -->
+          <p class="text">
+            Нижній колонтитул зазвичай містить автора документа, інформацію про
+            авторське право, посилання на умови використання, контактні дані і
+            т.д.
+          </p>
+          <!-- /.text -->
+          <p class="text">
+            В одному документі може бути кілька елементів &lt;footer&gt;.
+          </p>
+          <!-- /.text -->
+
+          <p class="text">
+            У наступному прикладі визначається заголовок для статті:
+          </p>
+          <!-- /.text -->
+          <a href="https://www.blogger.com/onboarding"
+            ><img
+              src="./img/Example_4.png"
+              alt="Photo of example"
+              class="example"
+          /></a>
+        </section>
+        <!-- /.section -->
+      </div>
+      <!-- /.container -->
+    </main>
+    <!-- /.main_contant -->
+  </body>
+</html>

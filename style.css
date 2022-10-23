@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 40px 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+}
+
+body {
+  font-family: sans-serif;
+}
+span {
+  font-weight: bold;
+}
+
+/*========================== general ===========================*/
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+}
+/*===================== header ======================*/
+.nav-bar__list {
+  display: flex;
+  justify-content: space-around;
+}
+/*======================= section ============================*/
+
+.browser_list {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.browser_list__item__img {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-bar {
+  margin-top: 20px;
+}
+
+.text {
+  margin-bottom: 20px;
+}
+
+.simple {
+  font-weight: normal;
+}
+
+.nav-bar__list__item {
+  margin-bottom: 10px;
+}
